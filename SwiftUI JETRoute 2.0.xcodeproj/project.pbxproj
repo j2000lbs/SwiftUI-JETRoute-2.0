@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		33DF56A9244A5D4700A8D908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56A8244A5D4700A8D908 /* AppDelegate.swift */; };
 		33DF56AB244A5D4700A8D908 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56AA244A5D4700A8D908 /* SceneDelegate.swift */; };
-		33DF56AD244A5D4700A8D908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56AC244A5D4700A8D908 /* ContentView.swift */; };
+		33DF56AD244A5D4700A8D908 /* CalendarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56AC244A5D4700A8D908 /* CalendarContentView.swift */; };
 		33DF56AF244A5D4900A8D908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DF56AE244A5D4900A8D908 /* Assets.xcassets */; };
 		33DF56B2244A5D4900A8D908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DF56B1244A5D4900A8D908 /* Preview Assets.xcassets */; };
 		33DF56B5244A5D4900A8D908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DF56B3244A5D4900A8D908 /* LaunchScreen.storyboard */; };
+		33DF56BF244A5E6700A8D908 /* LegModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56BE244A5E6700A8D908 /* LegModel.swift */; };
+		33DF56C3244A5EBE00A8D908 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56C2244A5EBE00A8D908 /* TripModel.swift */; };
+		33DF56C7244A5F2C00A8D908 /* MonthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56C6244A5F2C00A8D908 /* MonthModel.swift */; };
+		33DF56C9244A5F5600A8D908 /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56C8244A5F5600A8D908 /* DayModel.swift */; };
+		33DF56CB244A5FAD00A8D908 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF56CA244A5FAD00A8D908 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33DF56A5244A5D4700A8D908 /* SwiftUI JETRoute 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI JETRoute 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DF56A8244A5D4700A8D908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33DF56AA244A5D4700A8D908 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33DF56AC244A5D4700A8D908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33DF56AC244A5D4700A8D908 /* CalendarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarContentView.swift; sourceTree = "<group>"; };
 		33DF56AE244A5D4900A8D908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33DF56B1244A5D4900A8D908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33DF56B4244A5D4900A8D908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33DF56B6244A5D4900A8D908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DF56BE244A5E6700A8D908 /* LegModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegModel.swift; sourceTree = "<group>"; };
+		33DF56C2244A5EBE00A8D908 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		33DF56C6244A5F2C00A8D908 /* MonthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthModel.swift; sourceTree = "<group>"; };
+		33DF56C8244A5F5600A8D908 /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
+		33DF56CA244A5FAD00A8D908 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,8 @@
 			children = (
 				33DF56A8244A5D4700A8D908 /* AppDelegate.swift */,
 				33DF56AA244A5D4700A8D908 /* SceneDelegate.swift */,
-				33DF56AC244A5D4700A8D908 /* ContentView.swift */,
+				33DF56BC244A5DAC00A8D908 /* ContentView */,
+				33DF56BD244A5E3C00A8D908 /* Models */,
 				33DF56AE244A5D4900A8D908 /* Assets.xcassets */,
 				33DF56B3244A5D4900A8D908 /* LaunchScreen.storyboard */,
 				33DF56B6244A5D4900A8D908 /* Info.plist */,
@@ -73,6 +84,26 @@
 				33DF56B1244A5D4900A8D908 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33DF56BC244A5DAC00A8D908 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				33DF56AC244A5D4700A8D908 /* CalendarContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		33DF56BD244A5E3C00A8D908 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33DF56BE244A5E6700A8D908 /* LegModel.swift */,
+				33DF56C8244A5F5600A8D908 /* DayModel.swift */,
+				33DF56C2244A5EBE00A8D908 /* TripModel.swift */,
+				33DF56C6244A5F2C00A8D908 /* MonthModel.swift */,
+				33DF56CA244A5FAD00A8D908 /* DataModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +179,12 @@
 			files = (
 				33DF56A9244A5D4700A8D908 /* AppDelegate.swift in Sources */,
 				33DF56AB244A5D4700A8D908 /* SceneDelegate.swift in Sources */,
-				33DF56AD244A5D4700A8D908 /* ContentView.swift in Sources */,
+				33DF56C9244A5F5600A8D908 /* DayModel.swift in Sources */,
+				33DF56C3244A5EBE00A8D908 /* TripModel.swift in Sources */,
+				33DF56C7244A5F2C00A8D908 /* MonthModel.swift in Sources */,
+				33DF56CB244A5FAD00A8D908 /* DataModel.swift in Sources */,
+				33DF56BF244A5E6700A8D908 /* LegModel.swift in Sources */,
+				33DF56AD244A5D4700A8D908 /* CalendarContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
